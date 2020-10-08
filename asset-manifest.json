@@ -1,31 +1,32 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.2a0456b2.chunk.css",
-    "main.js": "/portfolio/static/js/main.bb06d07f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.bb06d07f.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.cd839501.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cd839501.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b958c5cb.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b958c5cb.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/portfolio/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.12292827.chunk.js": "/portfolio/static/js/2.12292827.chunk.js",
-    "static/js/2.12292827.chunk.js.map": "/portfolio/static/js/2.12292827.chunk.js.map",
+    "static/js/2.06c6fc28.chunk.js": "/portfolio/static/js/2.06c6fc28.chunk.js",
+    "static/js/2.06c6fc28.chunk.js.map": "/portfolio/static/js/2.06c6fc28.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.b0ce8e0882be61ea2318fc9a392cef12.js": "/portfolio/precache-manifest.b0ce8e0882be61ea2318fc9a392cef12.js",
+    "precache-manifest.36f1071bcc47f199928116a4f7b91334.js": "/portfolio/precache-manifest.36f1071bcc47f199928116a4f7b91334.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/portfolio/static/css/2.d9ad5f5c.chunk.css.map",
     "static/css/main.2a0456b2.chunk.css.map": "/portfolio/static/css/main.2a0456b2.chunk.css.map",
-    "static/js/2.12292827.chunk.js.LICENSE.txt": "/portfolio/static/js/2.12292827.chunk.js.LICENSE.txt",
+    "static/js/2.06c6fc28.chunk.js.LICENSE.txt": "/portfolio/static/js/2.06c6fc28.chunk.js.LICENSE.txt",
     "static/media/boston3.jpg": "/portfolio/static/media/boston3.97507903.jpg",
     "static/media/kohlanta.JPG": "/portfolio/static/media/kohlanta.7c20b602.JPG",
     "static/media/losotrodo.jpg": "/portfolio/static/media/losotrodo.4609912d.jpg",
     "static/media/nahue2020Zoom.jpg": "/portfolio/static/media/nahue2020Zoom.0b22a7ee.jpg",
     "static/media/nahuel2016.png": "/portfolio/static/media/nahuel2016.2c5ef616.png",
+    "static/media/pesoConverter.jpg": "/portfolio/static/media/pesoConverter.367cf2c5.jpg",
     "static/media/sindicato.jpg": "/portfolio/static/media/sindicato.432c46af.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.b958c5cb.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.12292827.chunk.js",
+    "static/js/2.06c6fc28.chunk.js",
     "static/css/main.2a0456b2.chunk.css",
-    "static/js/main.bb06d07f.chunk.js"
+    "static/js/main.cd839501.chunk.js"
   ]
 }
