@@ -1,0 +1,41 @@
+$maincolor: #000a73eb;
+
+.menu {
+  background-color: $maincolor !important;
+}
+
+.brand {
+  transform: translateY(-100em);
+  animation: trasladarMenu 1s ease 3s forwards;
+}
+
+.toggle {
+  transform: translateY(-100em);
+  animation: trasladarMenu 1s ease 4s forwards;
+}
+
+.collapse {
+  transform: translateY(-100em);
+  animation: trasladarMenu 1s ease 4s forwards;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-light .navbar-brand {
+  color: #f8f9fa;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+@keyframes trasladarMenu {
+  0% {
+    transform: translateY(-100em);
+  }
+  100% {
+    transform: translateY(0em);
+  }
+}

@@ -1,0 +1,231 @@
+body html {
+  margin: 0;
+  padding: 0;
+}
+
+.backgroundimg {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: auto;
+  background-color: #03083e;
+}
+
+.mainmessage {
+  color: white;
+  padding: 6em;
+}
+
+/* Google Fonts */
+
+.line1 {
+  position: relative;
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 300%;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+.line2 {
+  position: relative;
+  top: 50%;
+  width: 24em;
+  margin: 0 auto;
+
+  font-size: 200%;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+/* Animation */
+.animtypewriter {
+  animation: typewriter 2s steps(44) 1s 1 normal both,
+    blinkTextCursor 500ms steps(44) 2s normal forwards;
+}
+.animtypewriter2 {
+  animation: typewriter2 1s steps(124) 3s 1 normal both,
+    blinkTextCursor2 750ms steps(124) infinite normal;
+}
+@keyframes typewriter {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 24em;
+    border-right: none;
+  }
+}
+
+@keyframes typewriter2 {
+  0% {
+    width: 0;
+    margin: 0;
+  }
+  50% {
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+  }
+  99% {
+    width: 7em;
+  }
+  100% {
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    width: 7em;
+    margin: 0;
+  }
+}
+
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+@keyframes blinkTextCursor2 {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.btnNewProperties {
+  transform: translateX(-20em);
+  animation: animateButton 1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+  -webkit-animation-fill-mode: forwards;
+}
+
+.botonNoVisible {
+  overflow: hidden;
+}
+.botonVisible {
+  overflow: hidden;
+}
+
+@keyframes animateButton {
+  5% {
+    transform: translateX(-10em);
+  }
+  90% {
+    transform: translateX(11em);
+  }
+  100% {
+    transform: translateX(0em);
+  }
+}
+
+.circlePath {
+  transform: translateY(0em) translateX(-1em);
+  animation: animateCircle 5s ease 4s forwards;
+}
+
+@keyframes animateCircle {
+  0% {
+    transform: translateY(0em) translateX(-1em);
+  }
+  10% {
+    transform: translateY(0em) translateX(16em);
+  }
+  20% {
+    transform: translateY(-15em) translateX(22em);
+  }
+  30% {
+    transform: translateY(0em) translateX(28em);
+  }
+  40% {
+    transform: translateY(-22em) translateX(38em);
+  }
+  50% {
+    transform: translateY(0em) translateX(28em);
+  }
+  60% {
+    transform: translateY(-15em) translateX(22em);
+  }
+  65% {
+    transform: translateY(-16em) translateX(19em);
+  }
+  99% {
+    transform: translateY(-3.7em) translateX(14em);
+  }
+  100% {
+    fill: url(#img1);
+    stroke-width: 4;
+    transform: translateY(-26em) translateX(5em) scale(2, 2);
+  }
+}
+// @keyframes animateCircle {
+//   0% {
+//     transform: translateY(0em) translateX(-1em);
+//   }
+//   25% {
+//     transform: translateY(0em) translateX(16em);
+//   }
+//   50% {
+//     transform: translateY(-15em) translateX(22em);
+//   }
+//   75% {
+//     transform: translateY(0em) translateX(28em);
+//   }
+//   100% {
+//     transform: translateY(-22em) translateX(38em);
+//   }
+// }
+
+@keyframes animateCircleFirst {
+  0% {
+    transform: translateX(-50em);
+  }
+  100% {
+    transform: translateX(0em);
+  }
+}
+
+.linea1 {
+  animation: animateLinea 2s ease 4s forwards;
+}
+
+@keyframes animateLinea {
+  0% {
+    stroke: pink;
+    d: path(
+      "M89.06051609027745,292.9763852964444 L325.28099207889795,290.61418053655814"
+    );
+  }
+  25% {
+    stroke: green;
+    d: path(
+      "M89.06051609027745,292.9763852964444 L325.28099207889795,290.61418053655814"
+    );
+  }
+  50% {
+    stroke: red;
+    d: path(
+      "M89.06051609027745,292.9763852964444 L325.28099207889795,290.61418053655814,M315.476717432035,296.8998949244518 L412.32711258736936,63.82902528234633"
+    );
+  }
+  75% {
+    stroke: blue;
+    d: path(
+      "M89.06051609027745,292.9763852964444 L325.28099207889795,290.61418053655814,M315.476717432035,296.8998949244518 L412.32711258736936,63.82902528234633,M411.32373804102997,71.6265506571473 L510.5363379562506, 300.7604123661092"
+    );
+  }
+  100% {
+    stroke: orange;
+    d: path(
+      "M89.06051609027745,292.9763852964444 L325.28099207889795,290.61418053655814,M315.476717432035,296.8998949244518 L412.32711258736936,63.82902528234633,M411.32373804102997,71.6265506571473 L510.5363379562506,300.7604123661092,
+      M510.10439194727985,292.251975776672 L639.2382521543924,-3.8110207957323468"
+    );
+  }
+}

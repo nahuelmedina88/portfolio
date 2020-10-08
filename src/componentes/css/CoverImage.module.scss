@@ -1,0 +1,19 @@
+.backgroundimg {
+  // background-image: url("C:/Users/NAHUEL/Documents/JAVASCRIPT/react/portfolio/src/componentes/images/backgroundimage1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: auto;
+  //   -webkit-filter: blur(1px);
+  //   -moz-filter: blur(1px);
+  //   -o-filter: blur(1px);
+  //   -ms-filter: blur(1px);
+  //   filter: blur(1px);
+  opacity: 0.9;
+}
+
+.mainmessage {
+  color: white;
+  opacity: 1 !important;
+}

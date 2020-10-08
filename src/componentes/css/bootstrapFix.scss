@@ -1,0 +1,31 @@
+$maincolor: #000a73eb;
+$colorletraMenu: #ffffffc4;
+
+// Menu
+.navbar-light .navbar-brand {
+  color: $colorletraMenu;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: $colorletraMenu;
+}
+
+//Boton
+$maincolorboton: #0b57a9;
+.btn-primary {
+  color: $colorletraMenu;
+  background-color: $maincolorboton;
+  border-color: $maincolor;
+}
+.btn {
+  font-size: 1.3rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}

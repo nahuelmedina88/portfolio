@@ -1,0 +1,38 @@
+@media only screen and (min-width: 500px) {
+  .textdiv {
+    padding: 3em;
+    text-align: justify;
+  }
+
+  .imagediv {
+    padding: 3em;
+  }
+}
+@media only screen and (max-width: 499px) {
+  .textdiv {
+    padding: 1.5em;
+    text-align: justify;
+  }
+
+  .imagediv {
+    padding: 0px;
+  }
+}
+
+.textdiv {
+  padding: 3em;
+  text-align: justify;
+}
+
+.textdiv h2 {
+  color: white;
+}
+
+.textdiv p {
+  color: white;
+}
+
+.title {
+  margin-bottom: 1em;
+  text-align: center;
+}
