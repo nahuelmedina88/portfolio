@@ -9,11 +9,11 @@ import Resume from "./Resume/Resume";
 const Main = () => (
   <HashRouter basename='/'>
     <Switch>
-      <Route exact path="/portfolio/#/" component={Home} />
-      <Route exact path="/portfolio/#/contact" component={Contact} />
-      <Route exact path="/portfolio/#/aboutme" component={Aboutme} />
-      <Route exact path="/portfolio/#/myprojects" component={MyProjects} />
-      <Route exact path="/portfolio/#/resume" component={Resume} />
+      <Route exact path="/" component={Home} />
+      <Route exact path="/contact" component={Contact} />
+      <Route exact path="/aboutme" component={Aboutme} />
+      <Route exact path="/myprojects" component={MyProjects} />
+      <Route exact path="/resume" component={Resume} />
     </Switch>
   </HashRouter>
 );
