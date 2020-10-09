@@ -29,9 +29,9 @@ export default class MenuNavigation extends Component {
             <Nav className="mr-auto">
               <Nav.Link href="/portfolio/#/">Home</Nav.Link>
               <Nav.Link href="/portfolio/#/aboutme">About Me</Nav.Link>
-              <Nav.Link href="/myprojects">My Projects</Nav.Link>
-              <Nav.Link href="/resume">Resume</Nav.Link>
-              <Nav.Link href="/contact">Contact</Nav.Link>
+              <Nav.Link href="/portfolio/#/myprojects">My Projects</Nav.Link>
+              <Nav.Link href="/portfolio/#/resume">Resume</Nav.Link>
+              <Nav.Link href="/portfolio/#/contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
